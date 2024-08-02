@@ -93,11 +93,7 @@ li .list-item-blue {
 .footer {
     width: 100%;
     margin-bottom: 0;
-}
-
-.footer img {
-    width: 100%;
-    margin: 0;
+    align-items: center;
 }
 
 /* Table Styling */
@@ -140,23 +136,21 @@ th, td {
 }
 
 /* Media Query for changing image height by screen width */
-
-/* Phone / small */
-picture img {
+.footer img{
     width: 100%;
-    height: auto;
+    margin: 0;
 }
 
 /* Tablet / medium */
 @media (min-width: 768px) {
     picture img {
-        height: 200px;
+        content: url('img/Banner-medium.jpg');
     }
 }
 
 /* Wide / Large */
 @media (min-width: 1024px) {
     picture img {
-        height: 300px;
+        content: url('img/Banner-large.jpg');
     }
 }

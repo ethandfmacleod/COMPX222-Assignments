@@ -21,11 +21,55 @@
     <!-- Main content of the page -->
     <div class="page-content">
         <h1>How is a web page downloaded?</h1>
+        <h2 class="styled-h2">Example</h2>
+        <p>This page will serve as a worked example for how a webpage is loaded. In this instance, I have chosen the W3 homepage to try this on.</p>
+        <p>The requests and responses were as follows:</p>
+        <!-- List of steps the W3 website took when loading the page -->
+        <ol>
+          <li>
+            <div>
+              <p><b>Url:</b> www.w3.org</p>
+              <p><b>Method:</b> GET</p>
+              <p><b>Response:</b> 200</p>
+              <p><b>Description:</b> The first request done was used to get the main html of the page.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p><b>Url:</b> www.w3.org/assets/website-2021/styles/core.css?ver=1.4</p>
+              <p><b>Method:</b> GET</p>
+              <p><b>Response:</b> 200</p>
+              <p><b>Description:</b> The second request was made to retrieve the css file that was linked in the html.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p><b>Url:</b> https://www.w3.org/assets/logos/w3c/*</p>
+              <p><b>Method:</b> GET</p>
+              <p><b>Response:</b> 200</p>
+              <p><b>Description:</b> The next 5 requests were all made to the same folder, and contained some of the svg images used on the page.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p><b>Url:</b> https://www.w3.org/assets/website-2021/js/main.js?ver=1.4</p>
+              <p><b>Method:</b> GET</p>
+              <p><b>Response:</b> 200</p>
+              <p><b>Description:</b> After the images, the next request retrieved the main JavaScript file that contained some of the logic for the page.</p>
+            </div>
+          </li>
+          <li><b>Etc.</b></li>
+        </ol>
+        <br>
+        <p>From these series of requests we can glean how a webpage is downloaded from a server.</p>
+        <p>The first request is made to retrieve the html in its entirety for the page. This html contains a set of dependencies, such as an external css file and images.</p>
+        <p>From this html file, a series of requests are made to get each of the dependencies found in the html file.</p>
+        <p>After this, any dependencies found inside those other files are also resolved and downloaded, allowing the client to view the final page.</p>
     </div>
     <!-- Footer with required image -->
     <div class="footer">
       <picture>
-        <img src="../img/space.jpg" alt="Space Banner">
+        <img src="../img/Banner-small.jpg" alt="Banner image">
       </picture>
     </div>
   </body>
