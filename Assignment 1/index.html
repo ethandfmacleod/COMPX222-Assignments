@@ -6,7 +6,37 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <main>
-    </main>
+    <!-- Top Nav Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>HTTP</li>
+                <li>Requests</li>
+                <li>Web Pages</li>
+                <li>Get/Post</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content of the page -->
+    <div class="page-content">
+        <h1>Welcome!</h1>
+        <h2>This is my website for COMPX222 Assignment 1</h2>
+        <p>You can navigate through the pages using the nav bar above. Some of the pages included are:</p>
+        <ul>
+          <li><span class="list-item-red">HTTP:</span> An overview of http and HTTPS.</li>
+          <li><span class="list-item-blue">Web Pages:</span> How are web pages downloaded?</li>
+          <li><span class="list-item-red">Requests:</span> The format of HTTP requests and some common error codes.</li>
+          <li><span class="list-item-blue">Get/Post:</span> When and Why to use each.</li>
+        </ul>
+    </div>
+    <!-- Footer with required image -->
+    <div class="footer">
+        <picture>
+            <source srcset="img/Banner-large.jpg" media="(min-width: 1001px)">
+            <source srcset="img/Banner-medium.jpg" media="(min-width: 800px)">
+            <img src="img/Banner-small.jpg" alt="Banner indicating screen width">
+        </picture>
+    </div>
   </body>
 </html>
