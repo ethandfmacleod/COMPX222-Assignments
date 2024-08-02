@@ -21,13 +21,30 @@
     <!-- Main content of the page -->
     <div class="page-content">
         <h1>When to use GET and POST?</h1>
+        <h2 class="styled-h2">Why use different HTTP Methods?</h2>
+        <p>HTTP has been designed to maintain strict standards for communication across the web.</p>
+        <p>The HTTP methods are once such way that this is done. When making a request to a server, the HTTP method signals to the server what action should be performed on a specific resource.</p>
+        <p>Each method defines what actions the server should take.</p>
+        <br>
+        <h2 class="styled-h2">GET</h2>
+        <p>The GET method is used to retrieve a resource or information from a server without modifying anything else.</p>
+        <p>As long as any information isn't modified in the server, all GET responses should contain the same information.</p>
+        <p>An example of using the GET method when making an HTTP request is requesting specific data from an API, or a web page from a server.</p>
+        <br>
+        <h2 class="styled-h2">POST</h2>
+        <p>POST requests on the other hand are used to submit data for processing.</p>
+        <p>The submitted data is conventionally contained in the request body.</p>
+        <p>An example of using a POST method in an HTTP request is submitting form data from a webpage to a server for processing.</p>
+        <br>
+        <h2 class="styled-h2">Overview</h2>
+        <p>So, each HTTP method has their own use cases and scenarios in which they should be used, and often times using the wrong method will cause the server to throw an HTTP error.</p>
+        <p>Only GET and POST were discussed in this page, however there are many more methods that can be used.</p>
+    </div>
     <!-- Footer with required image -->
     <div class="footer">
-        <picture>
-            <source srcset="../img/Banner-large.jpg" media="(min-width: 1001px)">
-            <source srcset="../img/Banner-medium.jpg" media="(min-width: 800px)">
-            <img src="../img/Banner-small.jpg" alt="Banner indicating screen width">
-        </picture>
+      <picture>
+        <img src="../img/space.jpg" alt="Space Banner">
+      </picture>
     </div>
   </body>
 </html>
