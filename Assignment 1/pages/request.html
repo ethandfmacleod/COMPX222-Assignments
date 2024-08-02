@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <!-- Top Nav Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="http.html">HTTP</a></li>
+                <li><a href="request.html">Requests</a></li>
+                <li><a href="web-page.html">Web Pages</a></li>
+                <li><a href="get-post.html">Get/Post</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content of the page -->
+    <div class="page-content">
+        <h1>What is a request?</h1>
+        <h3>An HTTP request can be roughly broken down into three parts:</h3>
+        <ul>
+            <li><h4>Request Line</h4></li>
+            <li><h4>Request Specific Headers</h4></li>
+            <li><h4>Request Body (Optional)</h4></li>
+        </ul>
+        <br>
+        <div class="grid-container">
+            <div class="box">
+                <h3 class="section-header">Request Line</h3>
+                <p>The request line can further be broken down into 3 parts:</p>
+                <ul>
+                    <li>The HTTP Method</li>
+                    <li>The Path and Filename</li>
+                    <li>The HTTP Version</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3 class="section-header">Request Specific Headers</h3>
+                <p>Request specific headers are used to configure and add information to requests.</p>
+            </div>
+            <div class="box">
+                <h3 class="section-header">Request Body</h3>
+                <p>The request body is required in the case that not all information is given in the header and line. An example of this is additional information in a POST request.</p>
+            </div>
+        </div>
+        <br>
+        <!-- Error Codes Table -->
+        <div class="error-table">
+            <table>
+                <caption><h2>Common Error Codes</h2></caption>
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Status</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>400</td>
+                        <td>Bad Request</td>
+                        <td>The server cannot or will not process the request due to client error.</td>
+                    </tr>
+                    <tr>
+                        <td>401</td>
+                        <td>Unauthorized</td>
+                        <td>The client must authenticate itself to get the requested response.</td>
+                    </tr>
+                    <tr>
+                        <td>403</td>
+                        <td>Forbidden</td>
+                        <td>The client does not have access rights to the content.</td>
+                    </tr>
+                    <tr>
+                        <td>404</td>
+                        <td>Not Found</td>
+                        <td>The server can not find the requested resource.</td>
+                    </tr>
+                    <tr>
+                        <td>500</td>
+                        <td>Internal Server Error</td>
+                        <td>The server has encountered a situation it doesn't know how to handle.</td>
+                    </tr>
+                    <tr>
+                        <td>502</td>
+                        <td>Bad Gateway</td>
+                        <td>The server, while acting as a gateway or proxy, received an invalid response from the server.</td>
+                    </tr>
+                    <tr>
+                        <td>503</td>
+                        <td>Service Unavailable</td>
+                        <td>The server is not ready to handle the request.</td>
+                    </tr>
+                    <tr>
+                        <td>504</td>
+                        <td>Gateway Timeout</td>
+                        <td>The server is acting as a gateway and cannot get a response in time.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer with required image -->
+    <div class="footer">
+        <picture>
+            <source srcset="../img/Banner-large.jpg" media="(min-width: 1001px)">
+            <source srcset="../img/Banner-medium.jpg" media="(min-width: 800px)">
+            <img src="../img/Banner-small.jpg" alt="Banner indicating screen width">
+        </picture>
+    </div>
+  </body>
+</html>
