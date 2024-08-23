@@ -10,32 +10,60 @@
         <!-- Age and Gender -->
         <section id="age-gender" class="form-section">
             <h2>Age & Gender</h2>
-            <label for="age">Age: <span id="age-value">30</span></label>
-            <input type="range" id="age" min="30" max="74" value="30">
+            <div class="radio-container">
+                <span>Gender:</span>
+                <input type="radio" id="genderChoice1" name="gender" value="true">
+                <label for="genderChoice1">Male</label>
+                <input type="radio" id="genderChoice2" name="gender" value="false">
+                <label for="genderChoice2">Female</label>
+            </div>
+            <div>
+                <label for="age">Age: <span id="age-value">60</span></label>
+                <input type="range" id="age" min="18" max="100" value="60">
+            </div>
         </section>
         <!-- Cholesterol -->
         <section id="cholesterol" class="form-section">
             <h2>Cholesterol</h2>
-            <label for="age">Age: <span id="age-value">30</span></label>
-            <input type="range" id="age" min="30" max="74" value="30">
+            <div>
+                <label for="t-chol">Total cholesterol, mg/dL: <span id="total-chol-value">150</span></label>
+                <input type="range" id="t-chol" min="100" max="400" value="150">
+            </div>
+            <div>
+                <label for="hdl-chol">HDL cholesterol, mg/dL: <span id="hdl-chol-value">50</span></label>
+                <input type="range" id="hdl-chol" min="20" max="80" value="50">
+            </div>
         </section>
         <!-- Smoking -->
         <section id="smoker" class="form-section">
             <h2>Smoking Status</h2>
-            <label for="age">Age: <span id="age-value">30</span></label>
-            <input type="range" id="age" min="30" max="74" value="30">
+            <div class="radio-container">
+                <span>Do you smoke cigarettes?</span>
+                <input type="radio" id="smokeChoice1" name="smoke" value="true">
+                <label for="smokeChoice1">Yes</label>
+                <input type="radio" id="smokeChoice2" name="smoke" value="false">
+                <label for="smokeChoice2">No</label>
+            </div>
         </section>
         <!-- Blood Pressure -->
         <section id="blood-pressure" class="form-section">
             <h2>Blood Pressure</h2>
-            <label for="age">Age: <span id="age-value">30</span></label>
-            <input type="range" id="age" min="30" max="74" value="30">
+            <div class="radio-container">
+                <span>Are you currently being treated for a blood pressure related illness?</span>
+                <input type="radio" id="bpChoice1" name="bp" value="true">
+                <label for="bpChoice1">Yes</label>
+                <input type="radio" id="bpChoice2" name="bp" value="false">
+                <label for="bpChoice2">No</label>
+            </div>
+            <div>
+                <label for="bp-range">Systolic blood pressure, mm Hg: <span id="bp-value">120</span></label>
+                <input type="range" id="bp-range" min="60" max="200" value="120">
+            </div>
         </section>
         <!-- Results -->
         <section id="results" class="form-section">
             <h2>Results</h2>
-            <label for="age">Age: <span id="age-value">30</span></label>
-            <input type="range" id="age" min="30" max="74" value="30">
+            <h3>You have a <span id="result-value">10</span>% chance of developing coronary heart desease within the next 10 years.</h3>
         </section>
         <!-- Form Navigation -->
         <div class="form-controls">
