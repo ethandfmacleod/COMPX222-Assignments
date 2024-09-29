@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10vh;
+}
+
+.center-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* .outputs {
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+} */
+
+
+ul {
+    padding-left: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    margin: 20px;
+}
+
+li {
+    list-style: none;
+}
