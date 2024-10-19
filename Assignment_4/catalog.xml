@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <movie>
+        <title>The Shawshank Redemption</title>
+        <releaseDate>1994-09-22</releaseDate>
+        <description>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</description>
+        <director>Frank Darabont</director>
+        <genre>Drama</genre>
+        <image>images/shawshank.jpg</image>
+    </movie>
+    <movie>
+        <title>The Godfather</title>
+        <releaseDate>1972-03-24</releaseDate>
+        <description>An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.</description>
+        <director>Francis Ford Coppola</director>
+        <genre>Crime, Drama</genre>
+        <image>images/godfather.jpg</image>
+    </movie>
+    <movie>
+        <title>The Dark Knight</title>
+        <releaseDate>2008-07-18</releaseDate>
+        <description>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.</description>
+        <director>Christopher Nolan</director>
+        <genre>Action, Crime, Drama</genre>
+        <image>images/thedarkknight.jpg</image>
+    </movie>
+    <movie>
+        <title>Pulp Fiction</title>
+        <releaseDate>1994-10-14</releaseDate>
+        <description>The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</description>
+        <director>Quentin Tarantino</director>
+        <genre>Crime, Drama</genre>
+        <image>images/pulp.jpg</image>
+    </movie>
+    <movie>
+        <title>Forrest Gump</title>
+        <releaseDate>1994-07-06</releaseDate>
+        <description>The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold through the perspective of an Alabama man with an IQ of 75.</description>
+        <director>Robert Zemeckis</director>
+        <genre>Drama, Romance</genre>
+        <image>images/gump.jpg</image>
+    </movie>
+    <movie>
+        <title>Inception</title>
+        <releaseDate>2010-07-16</releaseDate>
+        <description>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.</description>
+        <director>Christopher Nolan</director>
+        <genre>Action, Adventure, Sci-Fi</genre>
+        <image>images/inception.jpg</image>
+    </movie>
+    <movie>
+        <title>The Matrix</title>
+        <releaseDate>1999-03-31</releaseDate>
+        <description>A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.</description>
+        <director>Lana Wachowski, Lilly Wachowski</director>
+        <genre>Action, Sci-Fi</genre>
+        <image>images/matrix.jpg</image>
+    </movie>
+    <movie>
+        <title>Fight Club</title>
+        <releaseDate>1999-10-15</releaseDate>
+        <description>An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much more.</description>
+        <director>David Fincher</director>
+        <genre>Drama</genre>
+        <image>images/fight.jpg</image>
+    </movie>
+    <movie>
+        <title>Interstellar</title>
+        <releaseDate>2014-11-07</releaseDate>
+        <description>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</description>
+        <director>Christopher Nolan</director>
+        <genre>Adventure, Drama, Sci-Fi</genre>
+        <image>images/interstellar.jpg</image>
+    </movie>
+    <movie>
+        <title>Goodfellas</title>
+        <releaseDate>1990-09-19</releaseDate>
+        <description>The true story of Henry Hill, a half-Italian, half-Irish kid from Brooklyn, and his rise to the top of the mob hierarchy.</description>
+        <director>Martin Scorsese</director>
+        <genre>Biography, Crime, Drama</genre>
+        <image>images/goodfellas.jpg</image>
+    </movie>
+    <movie>
+        <title>Seven Samurai</title>
+        <releaseDate>1954-04-26</releaseDate>
+        <description>A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.</description>
+        <director>Akira Kurosawa</director>
+        <genre>Action, Adventure, Drama</genre>
+        <image>images/samurai.jpg</image>
+    </movie>
+    <movie>
+        <title>City of God</title>
+        <releaseDate>2002-02-05</releaseDate>
+        <description>In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.</description>
+        <director>Fernando Meirelles, Katia Lund</director>
+        <genre>Crime, Drama</genre>
+        <image>images/god.jpg</image>
+    </movie>
+    <movie>
+        <title>The Silence of the Lambs</title>
+        <releaseDate>1991-02-14</releaseDate>
+        <description>A young FBI cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer.</description>
+        <director>Jonathan Demme</director>
+        <genre>Crime, Drama, Thriller</genre>
+        <image>images/lambs.jpg</image>
+    </movie>
+    <movie>
+        <title>Spirited Away</title>
+        <releaseDate>2001-07-20</releaseDate>
+        <description>A young girl, Chihiro, becomes trapped in a mysterious and magical world and must find a way to save her parents.</description>
+        <director>Hayao Miyazaki</director>
+        <genre>Animation, Adventure, Family</genre>
+        <image>images/spirited.jpg</image>
+    </movie>
+    <movie>
+        <title>The Lion King</title>
+        <releaseDate>1994-06-15</releaseDate>
+        <description>A lion prince flees his kingdom after the death of his father, but returns as an adult to reclaim his throne.</description>
+        <director>Roger Allers, Rob Minkoff</director>
+        <genre>Animation, Adventure, Drama</genre>
+        <image>images/lion.jpg</image>
+    </movie>
+    <movie>
+        <title>Gladiator</title>
+        <releaseDate>2000-05-05</releaseDate>
+        <description>In the year 180, a former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.</description>
+        <director>Ridley Scott</director>
+        <genre>Action, Adventure, Drama</genre>
+        <image>images/gladiator.jpg</image>
+    </movie>
+    <movie>
+        <title>Casablanca</title>
+        <releaseDate>1942-11-26</releaseDate>
+        <description>A cynical American expatriate struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in Morocco.</description>
+        <director>Michael Curtiz</director>
+        <genre>Drama, Romance, War</genre>
+        <image>images/casablanca.jpg</image>
+    </movie>
+    <movie>
+        <title>La La Land</title>
+        <releaseDate>2016-12-09</releaseDate>
+        <description>While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.</description>
+        <director>Damien Chazelle</director>
+        <genre>Comedy, Drama, Music</genre>
+        <image>images/land.jpg</image>
+    </movie>
+    <movie>
+        <title>Parasite</title>
+        <releaseDate>2019-05-30</releaseDate>
+        <description>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</description>
+        <director>Bong Joon-ho</director>
+        <genre>Comedy, Drama, Thriller</genre>
+        <image>images/parasite.jpg</image>
+    </movie>
+    <movie>
+        <title>12 Angry Men</title>
+        <releaseDate>1957-04-01</releaseDate>
+        <description>The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.</description>
+        <director>Sidney Lumet</director>
+        <genre>Crime, Drama</genre>
+        <image>images/12.jpg</image>
+    </movie>
+</catalog>
